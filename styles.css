@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: #e2e7e2;
+}
+/* .navbar */
+.navbar {
+    width: 1290px;
+    height: 60px;
+   background-color: black;
+    position: relative;
+    right: 30px;
+    
+
+
+}
+
+ul {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    transition: all 1.5s ease-in;
+}
+
+.nav-icon:hover {
+    color: rgba(0, 0, 255, 0.586);
+    transition: all 0.20s ease-in;
+    transform: scale(1.2);
+}
+
+/* head-photo */
+.head-photo {
+    width: 1260px;
+    height: 600px;
+    background-image: url(/hero_image\ \(1\).jpg);
+    background-size: cover;
+
+    ;
+}
+
+
+/* product-container */
+.product-container {
+
+    width: 1200px;
+    height: 1600px;
+    
+    position: absolute;
+    right: 30px;
+    top: 400px;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.product {
+    height: 300px;
+    width: 260px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+   justify-content: center;
+   padding-block-start: 5px;
+}
+
+.title {
+    height: 30px;
+    width: 230px;
+    
+}
+
+.photo {
+    width: 230px;
+    height: 240px;
+    
+}
+.shopnow{
+    height: 30px; 
+    width: 230px;
+   
+    
+}
